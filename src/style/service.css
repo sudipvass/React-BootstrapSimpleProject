@@ -1,0 +1,161 @@
+.service-container {
+  box-sizing: border-box;
+  background-image: url("../assets/images/servicebg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  padding: 100px 0 90px;
+}
+
+.service-title-two a {
+  text-decoration: none;
+  color: #14176c;
+}
+
+.service-title-two a:hover {
+  color: #ee5d0e;
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #b8b9da;
+  background-color: #ecf6fa;
+  flex: 0 0 auto;
+  color: #003c99;
+  position: relative;
+}
+
+
+
+
+/* style/service.css */
+@keyframes flipLeft {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg);
+  }
+}
+
+.flip-animation {
+  animation: flipLeft 1s forwards;
+}
+.service-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+
+
+.service-section-title {
+  color: #ee5d0e !important;
+}
+.service-item-top {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 22px;
+}
+.serv-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.service-item-top .title {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+@media (max-width: 1199.98px) {
+  .serv-container {
+    padding: 35px 30px;
+  }
+  .service-item-top .servtitle {
+    font-size: 20px;
+  }
+}
+.service-item-bottom p {
+  margin-bottom: 25px;
+}
+p {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  color: #000;
+}
+.service-item-bottom .btn-two {
+  background: #fef6e6;
+  color: #ee5d0e;
+}
+.btn-two {
+  user-select: none;
+  border: medium none;
+
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 15px 21px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+
+  transition: all 0.3s ease-out 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+ .vr{
+color: red;
+font-weight: bolder;
+display: block;
+ }
+.btn-two:hover{
+  color: white;
+}
+.btn-two::before {
+  padding: 0.9rem 1.5rem;
+  border-radius: 20px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+  transition: 0.4s all ease-in-out 0s;
+}
+
+.btn-two:hover::before {
+  top: unset;
+  bottom: 0;
+  height: 100%;
+  border: 1px solid#ee5d0e !important;
+  padding: 0.9rem 1.5rem;
+  border-radius: 20px;
+  background-color: #ee5d0e;
+}
+.service-button{
+  background-color: #ee5d0e !important;
+  width: 13%;
+  color: #ffff !important;
+}

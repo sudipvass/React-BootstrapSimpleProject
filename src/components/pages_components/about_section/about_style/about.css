@@ -1,0 +1,112 @@
+.section-header {
+  font-weight: 500;
+  color: #ee5d0e;
+}
+.about-container {
+  margin-top: 4rem;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+.image-warapper{
+  position: relative;
+  width: 100%;
+  height: auto;
+
+}
+
+.about-card-image {
+  border-radius: 20px 200px 20px 20px;
+  
+}
+.about-inner-container {
+  display: inline-flex;
+  width: 100%;
+}
+@media(max-width:1200px){
+  .about-inner-container{
+    display: block;
+  }
+  .about-inner-container .vr{
+    display: none;
+  }
+  .list-wrap{
+    margin: 0;
+    padding: 0;
+    margin-top: 3rem;
+  }
+}
+.info {
+  margin-bottom: 2rem;
+}
+.about-inner-container .title span {
+  background-color: #ecded7;
+  z-index: 1;
+  opacity: 1;
+  width: 22%;
+  color: #fb772f;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+  border: 1px solid #d8ac4a;
+  padding: 15px 20px 15px 20px;
+  border-radius: 1rem;
+}
+
+.list-wrap {
+  color: #14176c;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+}
+
+.service-arrow {
+  display: inline-flex;
+
+  color: white;
+  background-color: #ee5d0e;
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-right: 1rem;
+}
+.text-start {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-highlight-slogan {
+  color: #14176c;
+}
+
+.about-phone {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+.icon {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.about-telephone-icon {
+  background-color: #cccddb;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: xx-large;
+}
+.telephone-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #230063;
+  font-weight: 400;
+}
+.telephone-content a {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 700;
+  color: #003c99;
+}

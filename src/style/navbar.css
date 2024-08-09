@@ -1,0 +1,126 @@
+.navbar{
+  background-color: transparent;
+
+}
+.navbar-scrolled {
+  background-color: #ffff; 
+  transition: background-color 1s ease-in-out;
+}
+
+
+
+/* Style for active nav-link */
+
+ul.navbar-nav li.nav-item .nav-link{
+  color:  #12156b !important;
+}
+
+ul.navbar-nav li.nav-item:active .nav-link,
+ul.navbar-nav li.nav-item .nav-link.active,
+ul.navbar-nav li.nav-item:hover .nav-link,
+ul.navbar-nav li.nav-item:focus .nav-link,
+ul.navbar-nav li.nav-item:focus-visible .nav-link,
+ul.navbar-nav li.nav-item:focus-within .nav-link
+
+{
+  color: #ee5d0e !important;
+}
+
+
+/* Show dropdown menu on hover */
+ul.navbar-nav li.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Style for nested dropdown */
+ul.navbar-nav li.nav-item.dropdown .dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+  left: 100%;
+  top: 0;
+}
+
+/* Ensure the nested dropdown appears to the right */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+  position: absolute;
+  display: none;
+}
+
+/* nested dropdown appears to the right on hover */
+ul.navbar-nav li.nav-item.dropdown .dropdown-menu .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+ul.navbar-nav li.nav-item.dropdown .dropdown-menu .dropdown-item:hover{
+color: #ee5d0e;
+margin-left: 3px;
+} 
+
+.profile-btn{
+  width: 163px;
+  color: white !important;
+  text-transform: uppercase;
+  background: rgb(241, 88, 6);
+  font-size: 15px;
+  padding: 8px 12px ;
+  border-radius: 17px;
+}
+.profile-btn:hover{
+  border: 2px solid rgb(241, 88, 6);
+}
+.bi.bi-x{
+color: white;
+font-weight: bold;
+}
+.close-button{
+  border: 1px solid #f06d0f;
+  background-color: #ff5b00;
+  color: white;
+  border-radius: 30%;
+}
+ .close-button:hover {
+border: 3px solid #f06d0f;
+}
+
+.navbar-toggler,.infoOffcanvas-button-toggler{
+  color: white!important;
+  background-color: #dad1cb !important;
+}
+
+.navbar-toggler:hover,  .infoOffcanvas-button-toggler:hover,.navbar-toggler-icon:hover{
+  background-color: #ee5d0e !important;
+}
+.offCanvas__social-icon{
+  margin-top: 2rem;
+}
+.social-icon{
+  font-size: 25px;
+  margin-left:1rem ;
+  
+}
+@media(max-width:1163px){
+  .Navadded-items{
+    display: none;
+  }
+  .infoOffcanvas-button-toggler{
+    display: none;
+  }
+  .profile-btn{
+    display: none;
+
+  }
+  .navbar-toggler{
+    display: block;
+  }
+}
+
+@media (max-width:1163px){
+  .navbar{
+    background-color: #fcf8f6;
+  }
+}

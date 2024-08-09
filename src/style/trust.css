@@ -1,0 +1,59 @@
+.trust-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 6rem;
+}
+.trust-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.trust-title {
+  color: #ee5d0e !important;
+  align-self: flex-start;
+}
+.trust-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #f0ebe9;
+  border-radius: 10rem 10rem 500rem 500rem;
+}
+.trust-image-wrapper img {
+  vertical-align: middle;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+
+.trust-content-container .h1 {
+  color: #14176c;
+  font-weight: 600;
+}
+.h3.certification-title,
+.h3.migration-title {
+  color: #14176c;
+  font-weight: 600;
+}
+.certification-content-container,
+.map-migration-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.certificate-badge {
+  padding: 1rem;
+  background-color: #f9eee8;
+  margin-right: 2rem;
+  border-radius: 20px;
+}
+.map-icon {
+  background-color: #f9eee8;
+  padding: 1rem 0 1rem 0.8rem;
+  margin-right: 2rem;
+  border-radius: 20px;
+}

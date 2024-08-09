@@ -1,0 +1,115 @@
+.footer-container {
+  background-image: url("../assets/images/servicebg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.social-links {
+  color: #ffff;
+  font-size: x-large;
+  margin-left: 1rem;
+  border-radius: 50%;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding: 5px 9px 5px 9px;
+}
+.social-links:hover {
+  color: #11014d;
+  transition: 0.3s ease;
+}
+.instagram {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+}
+/* underline hover effect */
+.top.h3,
+.destination.h3,
+.location.h3{
+    position: relative;
+    background-color: transparent;
+}
+/* to bring underline on title of links  */
+.top.h3::before,
+.destination.h3::before,
+.location.h3::before
+{
+    content: "";
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    background-color: #ee5d0e;
+    width: 10%;
+    height: 6px;
+    border-radius: 7px;
+}
+/* different sections of links in footer  */
+.footer-top-links,
+.footer-destination-links,
+.footer-location-links{
+    margin:0px;
+    padding: 0px;
+}
+
+/* All links in footer  */
+.footer-links {
+  list-style: none;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.top-links,
+.destination-links,
+.location-links {
+  text-decoration: none;
+  color: #ebd7d7;
+  position: relative;
+  background-color: transparent;
+}
+
+.top-links::after,
+.destination-links::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    background-color: #ee5d0e !important;
+    width: 0;
+    height: 1px;
+    border-radius:11rem;
+    z-index: -1;
+    transition: 0.3s ease-in;
+}
+
+.top-links:hover,.destination-links:hover{
+    color: #ee5d0e;
+}
+.top-links:hover::after,.destination-links:hover::after{
+z-index: 1;
+height: 1;
+width: 100%;
+}
+
+/* location container styles */
+.footerLocationLinks {
+    list-style: none;
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 3;
+  }
+  .locationInfo.h7{
+    color: #ebd7d7 ;
+  }
+
+.location-links:hover{
+  color: #ee5d0e;
+}
+
+.copyright-text p,
+.munalhub-link,
+.prabidhi-link{
+text-decoration: none;
+color: #807a7a ;
+}

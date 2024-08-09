@@ -1,0 +1,45 @@
+.testimonial-container {
+  padding: 100px 0 90px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.testimonial-card-container {
+  background-color: #1f227b;
+  color: white;
+  padding: 45px 25px 35px;
+  border-radius: 30px;
+}
+
+/* padding: 100px 0 90px; */
+
+.carimage {
+  width: 82px;
+  margin: auto;
+}
+.carimage img {
+  display: block;
+  border-radius: 50%;
+  object-position: center;
+}
+
+.testimonial-card-container p {
+  margin-bottom: 0;
+  color: #b8b9da;
+  text-transform: capitalize;
+  text-align: justify;
+  font-size: 16px;
+}
+.test-header .sub-title {
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  color: #ee5d0e;
+}
+.test-header .test-title {
+  color: #fff;
+}

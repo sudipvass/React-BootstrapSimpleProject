@@ -1,0 +1,17 @@
+.main-container{
+   height: 100%;
+   width: 100%;
+}
+.home-section{
+   box-sizing: border-box;
+   min-height: 500px;
+   width:1400px;
+   margin-inline:auto;
+}
+.about-section{
+   box-sizing: border-box;
+   margin-top: 4rem;
+   min-width: 400px;
+   width: 100%;
+}
+
