@@ -12,14 +12,12 @@ export default defineConfig({
     }),
 
   ],
-  
-})
-
-export default {
-  build: {
+ build: {
     rollupOptions: {
       external: ['react-owl-carousel/dist/owl.carousel']
     }
-  }
-}
+  },
+  
+})
+
 
