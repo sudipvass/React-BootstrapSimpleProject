@@ -1,4 +1,4 @@
-import OwlCarousel from "react-owl-carousel/dist/owl.carousel";
+import OwlCarousel from "react-owl-carousel";
 import canada from "../../assets/images/canada.jpg";
 import australia from "../../assets/images/australia.jpg";
 import usa from "../../assets/images/usa.jpg";
