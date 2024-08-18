@@ -4,7 +4,8 @@ import image2 from "../../assets/images/2.jpg";
 import image3 from "../../assets/images/3.jpg";
 import image4 from "../../assets/images/4.jpg";
 
-import OwlCarousel from "react-owl-carousel";
+import OwlCarousel from "react-owl-carousel/dist/OwlCarousel";
+
 import "../../style/testimonial.css";
 export default function Testimonial() {
   const options = {
